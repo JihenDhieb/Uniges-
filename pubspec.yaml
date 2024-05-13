@@ -1,0 +1,82 @@
+name: uniges
+description: Uniges Mobile
+publish_to: "none"
+version: 1.1.12+12
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+dependencies:
+  clipboard_listener: ^2.0.0
+  connectivity_plus: ^4.0.2
+  dio: ^5.3.2
+  fl_chart: ^0.63.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  fluttertoast: ^8.2.2
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  image_gallery_saver: ^2.0.3
+  intl: ^0.18.1
+  local_auth: ^2.1.7
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.0
+  pie_chart: ^5.3.2
+  screenshot: ^2.1.0
+  sentry_flutter: ^7.10.1
+  flutter_launcher_icons: ^0.13.1
+  share_plus: ^7.0.2
+  image_picker: ^1.0.4
+  table_calendar: ^3.0.9
+  toggle_switch: ^2.1.0
+  date_picker_timeline: ^1.2.5
+  flutter_spinkit: ^5.2.0
+  shimmer: ^3.0.0
+  qr_code_scanner: ^1.0.1
+  package_info_plus: ^5.0.1
+  encrypt: ^5.0.3
+  flutter_udid: ^2.0.1
+  introduction_screen: ^3.1.12
+  flutter_file_downloader: ^1.1.2
+  android_package_installer: ^0.0.2
+  syncfusion_flutter_calendar: ^25.1.38
+  gantt_chart: ^0.3.0
+  carousel_slider: ^4.0.0
+  shared_preferences: ^2.0.8
+  home_widget: ^0.1.6
+
+ 
+  
+ 
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/grh.svg
+    - assets/icons/crm.svg
+    - assets/icons/wms.svg
+    - assets/icons/settings.svg
+    - assets/icons/dashboard.svg
+    - assets/icons/gmao.svg
+    - assets/icons/qc.svg
+    - assets/icons/validation.svg
+    - assets/icons/finance.svg
+    - assets/icons/icon.png
+    - assets/icons/logo.png
+    - assets/icons/colis.png
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"

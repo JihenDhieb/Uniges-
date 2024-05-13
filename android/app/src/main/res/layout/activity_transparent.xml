@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80000000">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titre"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:layout_below="@id/editTextName"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextStatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Statut"
+            android:layout_below="@id/editTextDescription"
+            android:layout_margin="16dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/editTextDureeEstimee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durée estimée (en heures)"
+            android:layout_below="@id/editTextStatu"
+            android:layout_margin="16dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/editTextDateRealisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date de réalisation"
+            android:layout_below="@id/editTextDureeEstimee"
+            android:layout_margin="16dp"
+            android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/editTextDureeRealisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durée de réalisation (en heures)"
+            android:layout_below="@id/editTextDateRealisation"
+            android:layout_margin="16dp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/editTextPriorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Priorité"
+            android:layout_below="@id/editTextDureeRealisation"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rang"
+            android:layout_below="@id/editTextPriorite"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextDateEcheance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date d'échéance"
+            android:layout_below="@id/editTextRank"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_below="@id/editTextDateEcheance"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
